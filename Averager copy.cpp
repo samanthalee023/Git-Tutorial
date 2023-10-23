@@ -10,4 +10,5 @@ void Averager::process_student(Student student, int now) {
     total_wait_ += now-student.arrival_time();
     total_question_time_ += student.question_duration();
     students_serviced_ ++;
+    //hello
 }
